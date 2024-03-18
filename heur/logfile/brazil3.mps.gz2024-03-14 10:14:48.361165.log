@@ -1,0 +1,56 @@
+presolving:
+(round 1, fast)       16740 del vars, 8686 del conss, 53 add conss, 1164 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 3930 clqs
+(round 2, fast)       18408 del vars, 9803 del conss, 90 add conss, 1220 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 3941 clqs
+   (0.3s) running MILP presolver
+   (0.3s) MILP presolver (5 rounds): 0 aggregations, 10 fixings, 0 bound changes
+(round 3, medium)     18418 del vars, 14646 del conss, 3834 add conss, 1236 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 3931 clqs
+(round 4, fast)       18418 del vars, 14646 del conss, 3887 add conss, 1236 chg bounds, 0 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 3931 clqs
+(round 5, exhaustive) 18418 del vars, 14811 del conss, 3887 add conss, 1236 chg bounds, 68 chg sides, 0 chg coeffs, 0 upgd conss, 0 impls, 3931 clqs
+(round 6, exhaustive) 18418 del vars, 14811 del conss, 3887 add conss, 1236 chg bounds, 68 chg sides, 0 chg coeffs, 3312 upgd conss, 0 impls, 3931 clqs
+(round 7, medium)     18958 del vars, 14811 del conss, 3887 add conss, 1236 chg bounds, 608 chg sides, 540 chg coeffs, 3312 upgd conss, 0 impls, 3391 clqs
+(round 8, fast)       18958 del vars, 15351 del conss, 3887 add conss, 1236 chg bounds, 616 chg sides, 540 chg coeffs, 3312 upgd conss, 0 impls, 3391 clqs
+   (0.5s) running MILP presolver
+   (0.5s) MILP presolver found nothing
+(round 9, exhaustive) 18958 del vars, 15779 del conss, 3929 add conss, 1236 chg bounds, 616 chg sides, 540 chg coeffs, 3312 upgd conss, 0 impls, 3391 clqs
+(round 10, exhaustive) 18958 del vars, 16101 del conss, 3929 add conss, 1236 chg bounds, 616 chg sides, 540 chg coeffs, 3312 upgd conss, 0 impls, 3391 clqs
+(round 11, exhaustive) 18958 del vars, 16101 del conss, 3929 add conss, 1236 chg bounds, 652 chg sides, 540 chg coeffs, 3312 upgd conss, 0 impls, 3391 clqs
+(round 12, exhaustive) 18958 del vars, 16101 del conss, 3929 add conss, 1236 chg bounds, 652 chg sides, 540 chg coeffs, 3348 upgd conss, 0 impls, 3391 clqs
+(round 13, exhaustive) 18958 del vars, 16117 del conss, 3929 add conss, 1236 chg bounds, 652 chg sides, 540 chg coeffs, 3348 upgd conss, 0 impls, 3391 clqs
+   (0.6s) probing: 51/6545 (0.8%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.6s) probing aborted: 50/50 successive totally useless probings
+   (0.6s) symmetry computation started: requiring (bin +, int +, cont +), (fixed: bin -, int -, cont -)
+   (0.7s) symmetry computation finished: 153 generators found (max: 1500, log10 of symmetry group size: 65.2) (symcode time: 0.10)
+dynamic symmetry handling statistics:
+   orbitopal reduction:       no components
+   orbital reduction:          3 components of sizes 41, 37, 37
+   lexicographic reduction:  124 permutations with support sizes 1380, 42, 40, 40, 34, 34, 42, 42, 42, 42, 42, 42, 42, 42, 40, 40, 42, 42, 42, 34, 34, 34, 34, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 40, 34, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 34, 42, 42, 40, 42, 42, 42, 42, 42, 42, 40, 34, 40, 40, 34, 34, 1344, 42, 42, 42, 40, 34, 34, 34, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 1344, 40, 40, 34, 42, 42, 42, 42, 42, 42, 40, 40, 42, 42, 42, 42, 42, 42, 42, 42, 40, 34, 34, 34, 34, 40
+handled 22 out of 22 symmetry components
+(round 14, exhaustive) 19019 del vars, 16117 del conss, 3939 add conss, 1236 chg bounds, 652 chg sides, 540 chg coeffs, 3348 upgd conss, 0 impls, 3391 clqs
+(round 15, fast)       19019 del vars, 16117 del conss, 3974 add conss, 1236 chg bounds, 653 chg sides, 592 chg coeffs, 3348 upgd conss, 0 impls, 3391 clqs
+(round 16, exhaustive) 19019 del vars, 16118 del conss, 3974 add conss, 1236 chg bounds, 683 chg sides, 592 chg coeffs, 3348 upgd conss, 0 impls, 3391 clqs
+(round 17, exhaustive) 19019 del vars, 16118 del conss, 3974 add conss, 1236 chg bounds, 683 chg sides, 592 chg coeffs, 3383 upgd conss, 0 impls, 3391 clqs
+(round 18, fast)       19019 del vars, 16152 del conss, 3974 add conss, 1236 chg bounds, 683 chg sides, 592 chg coeffs, 3383 upgd conss, 0 impls, 3391 clqs
+   (0.7s) probing: 56/6545 (0.9%) - 0 fixings, 0 aggregations, 0 implications, 0 bound changes
+   (0.7s) probing aborted: 50/50 successive totally useless probings
+presolving (19 rounds: 19 fast, 13 medium, 11 exhaustive):
+ 19019 deleted vars, 16152 deleted constraints, 3974 added constraints, 1236 tightened bounds, 0 added holes, 683 changed sides, 592 changed coefficients
+ 0 implications, 3391 cliques
+presolved problem has 6489 variables (6484 bin, 5 int, 0 impl, 0 cont) and 2468 constraints
+      5 constraints of type <knapsack>
+   1912 constraints of type <setppc>
+     42 constraints of type <and>
+    373 constraints of type <linear>
+     10 constraints of type <orbitope>
+    126 constraints of type <logicor>
+transformed objective value is always integral (scale: 1)
+Presolving Time: 0.67
+
+ time | node  | left  |LP iter|LP it/n|mem/heur|mdpt |vars |cons |rows |cuts |sepa|confs|strbr|  dualbound   | primalbound  |  gap   | compl. 
+  5.3s|     1 |     0 | 16562 |     - |   169M |   0 |6489 |2577 |2500 |   0 |  0 | 111 |   0 | 2.000000e+00 |      --      |    Inf | unknown
+
+SCIP Status        : solving was interrupted [user interrupt]
+Solving Time (sec) : 7.08
+Solving Nodes      : 1
+Primal Bound       : +1.00000000000000e+20 (0 solutions)
+Dual Bound         : +2.00000000000000e+00
+Gap                : infinite
